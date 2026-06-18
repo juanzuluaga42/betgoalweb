@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; background: #080C14; font-family: 'Inter', sans-serif; }
+input, select { color: #DFF0FF; }
+select option { background: #0D1520; }
+
+.brand { background: linear-gradient(90deg,#00FF87,#00C8FF); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+.glow-g { box-shadow: 0 0 18px rgba(0,255,135,.28); }
+.glow-b { box-shadow: 0 0 18px rgba(0,200,255,.22); }
+.glow-ring { box-shadow: 0 0 36px rgba(0,255,135,.13); }
+.tg-g { text-shadow: 0 0 14px rgba(0,255,135,.55); }
+.tg-b { text-shadow: 0 0 14px rgba(0,200,255,.55); }
+.chat-u { background: #122030; border: 1px solid #1A3354; border-radius: 18px 18px 4px 18px; }
+.chat-g { background: #0D1E2E; border: 1px solid #00C8FF33; border-radius: 18px 18px 18px 4px; }
+.nav-glass { background: rgba(8,12,20,.93); backdrop-filter: blur(14px); border-top: 1px solid #1A3354; }
+.btn-pri { background: linear-gradient(135deg,#00FF87,#00C8FF); color: #080C14; font-family: 'Space Grotesk', sans-serif; font-weight: 700; border-radius: 16px; padding: 14px; border: none; cursor: pointer; transition: opacity .15s, transform .1s; width: 100%; }
+.btn-pri:active { transform: scale(.97); opacity: .9; }
+.btn-pri:disabled { background: #182A40; color: #4A7292; cursor: default; }
+.plan-card { background: linear-gradient(135deg,#0D1E2E,#122030); border: 1px solid #00FF8733; border-radius: 20px; }
+.scrollbar-none::-webkit-scrollbar { display: none; }
+.scrollbar-none { scrollbar-width: none; }
+.snap-x-cards { scroll-snap-type: x mandatory; }
+.snap-card { scroll-snap-align: center; }
